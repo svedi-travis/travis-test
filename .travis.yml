@@ -1,0 +1,8 @@
+language: cpp
+compiler:
+- clang
+os:
+- linux
+script: $CXX main.cpp -o main && ./main
+notifications:
+  email: false
